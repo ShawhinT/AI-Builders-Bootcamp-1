@@ -1,8 +1,0 @@
-#!/Users/shawhin/Documents/_code/_stv/repos/AI-Builders-Bootcamp-1/session-1/s1-env/bin/python
-# -*- coding: utf-8 -*-
-import re
-import sys
-from nbconvert.nbconvertapp import main
-if __name__ == '__main__':
-    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
-    sys.exit(main())
