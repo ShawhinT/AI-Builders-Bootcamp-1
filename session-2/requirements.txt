@@ -1,4 +1,5 @@
 jupyterlab
+ipykernel
 pandas
 scikit-learn
 matplotlib
