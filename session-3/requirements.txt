@@ -1,4 +1,5 @@
 jupyterlab
+ipykernel
 PyMuPDF
 openai
 ollama
