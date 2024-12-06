@@ -1,0 +1,10 @@
+jupyterlab
+ipywidgets
+matplotlib
+beautifulsoup4
+pandas
+scikit-learn
+sentence-transformers
+openai
+gradio
+numpy<2
