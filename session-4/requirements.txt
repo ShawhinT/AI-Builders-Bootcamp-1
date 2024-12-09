@@ -1,5 +1,5 @@
 jupyterlab
-ipywidgets
+ipykernel
 matplotlib
 beautifulsoup4
 pandas
