@@ -1,3 +1,3 @@
 jupyterlab
-ipywidgets
+ipykernel
 pandas
