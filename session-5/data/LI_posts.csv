@@ -1,0 +1,758 @@
+Idea,Copy,Media,Link
+3 types of AI Tik Tok,"A problem with AI today is that it means different things to different people. 
+
+This framework from Andrej Karpathy helped give me much more clarity 👇 
+
+Software 1.0 = Rule-based software systems. Humans program computers to solve problems step-by-step. 
+
+Software 2.0 = Computers program themselves by seeing examples (i.e. machine learning) 
+
+Software 3.0 = Repurposing general-purpose ML models for specific use cases (i.e. GenAI + Foundation Models) 
+
+But… what’s Software 4.0 going to be? 🤔",Video,https://www.linkedin.com/posts/shawhintalebi_a-problem-with-ai-today-is-that-it-means-activity-7265014286878404609-9QvC?utm_source=share&utm_medium=member_desktop
+Using polars for the first time,"I finally found an excuse to try polars (thanks to Ben for showing me the light). 
+
+For the uninitiated, polars is essentially a (much) faster version of pandas. 🐻‍❄️ > 🐼 
+
+After using it for a recent project, here are 3 things I liked about it 👇 
+
+1) The Syntax 
+
+Most of the syntax is identical to pandas, which made it super easy to use without any tutorials. 
+2) The “Lazy” API This allows you to manipulate dataframes without loading them into memory. 
+
+At the end, you can perform all the operations via the .collect() method. 
+3) .scan_parquet() 
+
+Yes, you can import .parquet files in pandas, but when combined with the Lazy API, this allows you to locally work with 10X bigger datasets in polars than pandas",Code,https://www.linkedin.com/posts/shawhintalebi_i-finally-found-an-excuse-to-try-polars-activity-7193972707175116800-kofh?utm_source=share&utm_medium=member_desktop
+Sharing 5 AI project ideas blog,"Within 24 hours, my latest blog was read by 10k people… 
+
+It fleshes out the 5 AI project ideas (you can build this weekend) that I shared here on Monday. 
+
+I break each idea down step-by-step and share some code for getting started. 
+
+Here’s the link if you want to check it out 👇 
+
+https://lnkd.in/gDvxCHx5",Article screenshot,https://www.linkedin.com/posts/shawhintalebi_within-24-hours-my-latest-blog-was-read-activity-7250144997008678912-01N9?utm_source=share&utm_medium=member_desktop
+Communication challenges for data scientist. Promote blog post,"This is why data scientists don’t get promoted (hint: It’s not SWE) 👇 
+
+A universal challenge for data scientists is communicating effectively with non-technical stakeholders. 
+
+This was one of the biggest limiting factors for those seeking advancement when I worked at a larger enterprise. 
+
+Here are 3 Communication tips that helped me get ahead as a data scientist. 
+
+1) Use Stories—framing communication as 3-part narrative helps it go down easier e.g. status quo, problem, solution. 
+
+2) Use Examples—examples make abstract ideas concrete. For instance, a 3-part narrative was used in this post. 
+
+3) Use analogies—analogies help us learn new things by mapping the unfamiliar to the familiar, which is very handy when explaining technical ideas. 
+
+👉 I share 4 more tips in the blog in a recent article published in Towards Data Science 
+
+Check it out and let me know how you’ve improved your communication skills.",Blog link,https://www.linkedin.com/posts/shawhintalebi_the-skill-that-holds-back-most-data-scientists-activity-7209917028244029441-i9yZ?utm_source=share&utm_medium=member_desktop
+Challenges of fine-tuning on Mac. Promote YouTube video,"Nvidia is making it not a great time to be a Mac user... 
+
+While fine-tuning ML models has never been easier, most of the open-source tooling is built for Nvidia hardware. 
+
+This means many Mac users (like me) have watched Windows and Linux users from the sidelines when it comes to fine-tuning models locally 🙍🏻‍♂️💻 
+
+That was until I discovered the MLX Python library! 
+
+In my latest YouTube video, I walk through a simple way to fine-tune Mistral 7b to respond to my YT comments using a Mac Mini (M1 16GB) 
+
+👉 Check it out here: https://lnkd.in/g6zCH-Hr",Meme,https://www.linkedin.com/posts/shawhintalebi_nvidia-is-making-it-not-a-great-time-to-be-activity-7224047846533029890-OUb_?utm_source=share&utm_medium=member_desktop
+Mistake from previous fine-tuning blog and sharing new one,"Last year, I wrote a popular blog on fine-tuning LLMs with example code. 
+
+There was only one problem… my fine-tuned model was overfitting 🤦🏻‍♂️ 
+
+While it doesn't feel so good to be wrong publicly (32k people read that article), it's one of the best ways to learn. 
+
+Public mistakes are great motivators for improvement and are an effective way of internalizing lessons. 
+
+One year later, I’ve (finally) redeemed myself by sharing another fine-tuning example (that doesn’t overfit). 
+
+I break down the example code in my latest blog post on fine-tuning BERT for text classification. 
+
+Check it out and let me know if I missed anything else 😅
+
+ https://lnkd.in/gc7rHDap 
+
+P.S. Thanks to 🚀 Jeremy ARANCIO for pointing out the mistake in the original blog post ❤️",Article screenshot,https://www.linkedin.com/posts/shawhintalebi_last-year-i-wrote-a-popular-blog-on-fine-tuning-activity-7254491072532250626-ZQSU?utm_source=share&utm_medium=member_desktop
+Sharing blog post on QLoRA,"Fine-tuning is when we take an existing model and tweak it for a specific use case 🔧
+
+Although this is a simple (and powerful) idea, applying it to LLMs isn’t always straightforward. 
+
+The key challenge is that LLMs are (very) computationally expensive e.g. full fine-tuning of a 70B parameter model requires over 1TB of memory! 
+
+👉 In my latest blog, I break down QLoRA, an approach that makes fine-tuning an LLM something you can do on your laptop. 
+
+Check it out and let me know what you think 👇 
+
+🔗 Link: https://lnkd.in/gsdeCVCB 
+
+Thanks to Towards Data Science for publishing this post and all the others in my LLM series!
+
+#llm #finetuning #ai",Blog link,https://www.linkedin.com/posts/shawhintalebi_qlorahow-to-fine-tune-an-llm-on-a-single-activity-7166793735203176448-_BFw?utm_source=share&utm_medium=member_desktop
+Sharing Python Quickstart blog post,"Learning Python is one of the best decisions I’ve made for my career. 
+
+And for those trying to get into AI and machine learning… it’s (basically) a requirement. 
+
+However, if you’re new to programming, it can be hard to know where to start. 
+
+That’s why I recently shared a beginner’s guide to AI development with Python. 
+
+There, I cover the fundamentals and then walk through an example project that summarizes and extracts keywords for research papers. 
+
+👉 Check it out here: https://lnkd.in/gBhWJD5Z",Image,https://www.linkedin.com/posts/shawhintalebi_learning-python-is-one-of-the-best-decisions-activity-7241808032894984193-e1hv?utm_source=share&utm_medium=member_desktop
+Lessons from mentorship call with $100k/mo entrepreneur,"Last month, I booked my most expensive mentorship call yet at $700/hr 😬 
+
+While this might sound like a big number, the person on the other side of the call makes $100k/mo as a solo AI entrepreneur. 
+
+Here are my key takeaways from this conversation... 
+
+1) Focus on customer pain points and problems, not your past experience and skills. 
+
+2) Price for the customer's value, not your time. 
+
+3) The bigger the price tag, the longer the copy (i.e. delay the ask) 
+
+4) Get hyper-clear on the customer and their problem, then attract them with free content (on socials) and a lead magnet. 
+
+5) The difference between 10k/mo and 100k/mo is more often business strategy rather than technical expertise. 
+
+Although these points might be Business 101 for some, many technical founders (like me) never learned these basics. 
+
+This is great news because it means I can probably get significant gains from a few simple adjustments. 
+
+Super grateful to Jason Liu for taking the time to share his wisdom with me 🙏",None,https://www.linkedin.com/posts/shawhintalebi_last-month-i-booked-my-most-expensive-mentorship-activity-7270455226292170752-zS5p?utm_source=share&utm_medium=member_desktop
+Quitting consoling to focus on content creation,"I’m quitting consulting to focus on YouTube. 
+
+Here’s why. 👇 
+
+1) YouTube is working! (80% of my traffic comes from YT) 
+
+2) It allows me to focus on one thing (i.e. avoid distractions) 
+
+3) Making 1 video a week gives me a clear, quantifiable goal that I can use to frame my learning and product development. 
+
+While committing to one thing is scary (especially something unpredictable like YouTube 😅), it is also necessary for success. 
+
+The reason (IMO) is that commitment backs you into a corner, forcing you to innovate and learn new things. 
+
+You can watch this experiment risk-free on my YouTube channel 😉 
+
+(🔗 link in comments)",Image,https://www.linkedin.com/posts/shawhintalebi_im-quitting-consulting-to-focus-on-youtube-activity-7181288771793960962-bbsu?utm_source=share&utm_medium=member_desktop
+Sharing LLM compression blog post,"Large language models (LLMs) demonstrate impressive performance across a wide range of tasks. 
+
+However, their immense scale can make deploying them in real-world settings a challenge 😮‍💨 
+
+In my latest blog post, I discuss how to mitigate these challenges using model compression. 
+
+Model compression seeks to reduce an ML model’s size without sacrificing performance. 
+
+I review 3 types of compression techniques (i.e. Quantization, Pruning, and Knowledge Distillation) and walk through an example implementation in Python. 
+
+Check it out and let me know what you think 👇",Blog link,https://www.linkedin.com/posts/shawhintalebi_compressing-large-language-models-llms-activity-7235281711029215232-3b-f?utm_source=share&utm_medium=member_desktop
+Evolution of OCR and sharing YouTube video on multimodal AI,"5 years ago, sentiment analysis and OCR required specialized ML skills. 
+
+Today, however, these are trivially done by off-the-shelf AI systems... 
+
+Models like GPT-4o and LLaMA 3.2 Vision can seamlessly process text and image data. 
+
+This combination is important because text inputs provide users with an interface to readily adapt the model's behavior to endless NLP and CV tasks. 
+
+For example, reading scanned invoices, defect detection, chart analysis, coding apps based on design mockups, visual question answering, and much more. 
+
+In my latest YouTube video, I shared how to use LLaMA 3.2 Vision (locally) to perform various bespoke CV tasks. 
+
+Check it out here 👇 
+
+https://lnkd.in/gFXJAPB6",Image,https://www.linkedin.com/posts/shawhintalebi_5-years-ago-sentiment-analysis-and-ocr-required-activity-7267197012188553216-Oj87?utm_source=share&utm_medium=member_desktop
+Challenges of fine-tuning LLMs on Mac and sharing blog post.,"The open-source community has been working hard to make building custom ML solutions accessible to all. 
+
+Today, a 7B parameter model can be (efficiently) fine-tuned on a single GPU! 
+
+However, Mac users have been largely left out of this trend due to Apple’s M-series chips (i.e. no GPUs) 😷 💻 ... 
+
+I had almost given up on my dreams of training LLMs locally until I discovered the MLX Python library. 
+
+In my latest blog post, I walk through an easy way to fine-tune Mistral 7B locally on my Mac Mini (M1 16GB).
+
+ 👉 Check it out: https://lnkd.in/gHN_HqrZ 
+
+Thanks to Towards Data Science for publishing 😁",Blog link,https://www.linkedin.com/posts/shawhintalebi_local-llm-fine-tuning-on-mac-m1-16gb-activity-7227314899129917440-7fgs?utm_source=share&utm_medium=member_desktop
+sharing 2 helpful textbook on LLMs and AI,"Although there are more learning resources for AI and ML than ever before, finding high-quality ones can still be a challenge. 
+
+Here are two I’m working through now 👇 
+
+1) Super Study Guide: Transformers & Large Language Models conceptually builds LLMs from the ground up. 
+
+It also has many incredible visualizations that help clarify (the many 😅) abstract mathematical concepts in ML. 
+
+2) Building LLMs for Production is a LLM practitioner’s guidebook. 
+
+This is the most comprehensive reference I’ve seen on actually building things with LLMs. 
+
+Thanks to Afshine Amidi, Shervine Amidi, Louis-François Bouchard, and Louie Peters for taking the time to distill your knowledge into these incredible resources 😁",Image,https://www.linkedin.com/posts/shawhintalebi_although-there-are-more-learning-resources-activity-7234920543135637504-HY8X?utm_source=share&utm_medium=member_desktop
+3 ways to make LLMs multimodal and sharing blog post,"Over the past year, we’ve seen LLMs gain the ability to see (i.e. process images) and hear (i.e. process audio directly), but how does that work under the hood? 
+
+Here are 3 general ways to do that 👇 
+
+1. LLM + Tools: Augment LLMs with pre-built components 
+
+2. LLM + Adapters: Augment LLMs with multi-modal encoders or decoders, which are aligned via adapter fine-tuning 
+
+3. Unified Models: Expand LLM architecture to fuse modalities at pre-training 
+
+In my latest blog post in Towards Data Science, I discuss these three approaches and share example code for (locally) using LLaMA 3.2 Vision to perform various image-to-text tasks. 
+
+Check it out here: https://lnkd.in/gGcvVk9u",Article screenshot,https://www.linkedin.com/posts/shawhintalebi_over-the-past-year-weve-seen-llms-gain-activity-7265374278798188547-Qqcm?utm_source=share&utm_medium=member_desktop
+Automating data pipeline for machine learning and sharing blog post,"Building data pipelines is commonplace in machine learning. 
+
+What’s less common, however, is automating these pipelines so data can be pulled on a schedule or event ⏲️ 
+
+👉 In a recent Towards Data Science article, I discussed two ways we can automate data pipelines for machine learning. 
+
+Way 1) Orchestration Tools i.e. Airflow et al. 
+
+Way 2) Python + Triggers i.e. “The Old Fashioned Way” 
+
+I implemented the latter approach using GitHub Actions, which provides a FREE way to run workflows! 
+
+Check out the example code in the article 👇",Blog link,https://www.linkedin.com/posts/shawhintalebi_automating-data-pipelines-with-python-github-activity-7204116699703353345-qFi4?utm_source=share&utm_medium=member_desktop
+The value of RAG and sharing blog post,"One of the most in-demand AI projects these days is building a RAG system 🔥 
+
+RAG (i.e., retrieval-augmented generation) improves an LLM by automatically providing it with relevant context to a user query or request. 
+
+👉 In my latest Medium article, I give a beginner-friendly introduction to RAG and use it to improve a YouTube comment responder I created in a past post. 
+
+Check it out and let me know what you think 😁 
+
+❤️ A big thank you to Towards Data Science for publishing this article and all the others in my LLM series",Blog link,https://www.linkedin.com/posts/shawhintalebi_how-to-improve-llms-with-rag-activity-7176938086835130368-LXs9?utm_source=share&utm_medium=member_desktop
+Explaining multimodal embeddings and sharing blog post,"Although text and images may look very different to us, to a neural network, these are represented via the same mathematical object, i.e., a vector. 
+
+Therefore, we can image vector spaces where text and images look similar, given they represent the same underlying information. 
+
+This is the key idea behind multimodal embeddings. 
+
+In my latest blog post, I share how we can generate such representations along with two practical use cases for them: 1) 0-shot Image Classification and 2) Image search. 
+
+Check it out here 👇 https://lnkd.in/g-Dvy9dF",Article screenshot,https://www.linkedin.com/posts/shawhintalebi_although-text-and-images-may-look-very-different-activity-7268293986186858496-ZSGx?utm_source=share&utm_medium=member_desktop
+What is RAG and sharing blog post,"One of the most in-demand AI projects these days is building a RAG system 🔥 
+
+RAG (i.e., retrieval-augmented generation) improves an LLM by automatically providing it with relevant context to a user query or request. 
+
+👉 In my latest Medium article, I give a beginner-friendly introduction to RAG and use it to improve a YouTube comment responder I created in a past post. 
+
+Check it out and let me know what you think 😁 
+
+❤️ A big thank you to Towards Data Science for publishing this article and all the others in my LLM series",Blog link,https://www.linkedin.com/posts/shawhintalebi_how-to-improve-llms-with-rag-activity-7176938086835130368-LXs9?utm_source=share&utm_medium=member_desktop
+Lessons from pursuing AI consoling and sharing video,"Last year, I quit my data science job to pursue entrepreneurship full-time. 
+
+My plan was to sell data science services to fund the development of a product that I could launch a business around 🚀 
+
+While this made a lot of sense on paper, pursuing this path over the last 9 months has made me realize that—this plan was flawed. 
+
+👉 In my latest YouTube video, I discuss my experience and share key lessons learned in case it's helpful to anyone on a similar journey.",Video link,https://www.linkedin.com/posts/shawhintalebi_i-was-wrong-about-ai-consulting-what-i-learned-activity-7183821179198009344-sAr2?utm_source=share&utm_medium=member_desktop
+Importance of deploying ML models and a simple way to do it. Share blog post,"Although it may seem that machine learning is all about training fancy models, in the real world, a model (by itself) does NOT generate value. 
+
+To turn an ML model into an ML solution (i.e., something valuable), we must “deploy it.” 
+
+While this can take many different forms, there is a simple 3-step strategy that works well in many situations…
+
+Step 1: Create an inference API 
+
+Step 2: Containerize the API 
+
+Step 3: Run the container on a cloud platform 
+
+👉 In a recent Towards Data Science article, I break down how to implement this 3-step strategy using FastAPI, Docker, and GCP. 
+
+Check it out and let me know what you think 👇",Blog link,https://www.linkedin.com/posts/shawhintalebi_how-to-deploy-ml-solutions-with-fastapi-activity-7206797696223891456-br2R?utm_source=share&utm_medium=member_desktop
+Lessons from 13 months of entrepreneurship,"It’s been 13 months since I had a W2 job... 
+
+During this time, I’ve realized there are several popular misconceptions about entrepreneurship. 
+
+Here are a few that are top of mind for me right now 👇 
+
+❌ ""I need funding to build a business."" 
+✅ The vast majority of businesses take no outside funding, and <1% take VC. Figuring out how to survive IS the game. 
+
+❌ ""I need an idea that can scale well."" 
+✅ ”Do things that don’t scale” -Paul Graham. There’s no point in scaling something no one wants. IF demand exists, then there’s always a way to scale. 
+
+❌ ""I need to learn web development frameworks to build a SaaS product."" 
+✅ ”Build with the tech you know” -Peiter Levels. The key is speed. You don’t have six months to take a bootcamp. Learn what you need to solve the problem.",Image,https://www.linkedin.com/posts/shawhintalebi_its-been-13-months-since-i-had-a-w2-job-activity-7237460163027165185-XTv2?utm_source=share&utm_medium=member_desktop
+Advice for data people thinking of pursuing entrepreneurship,"Last year, I passed on a $150k data science promotion to pursue my entrepreneurial dream life. Here’s my honest advice for data people considering a similar transition 👇 
+
+1) Start with a side hustle 
+
+Making money as an entrepreneur is very different than getting a paycheck. A side hustle is a great, low-stakes way to develop the necessary skillset. 
+
+The way I got started was through content creation and freelancing. 
+
+2) Learn how to sell 
+
+Data people typically have high-value skills like programming, data analytics, and machine learning. However, having these skills is not sufficient for monetizing them. 
+
+For that, you need to figure out how to sell yourself and your offers. 
+
+3) Shift your mindset from “What job can I do?” to “What problems can I solve?” 
+
+This is one of the biggest mindset shifts I’ve had to make this past year. 
+
+Focusing on fulfilling a role means you will always need someone's permission to get paid (whether a manager or a client). 
+
+However, when you focus on solving problems, there are very few constraints on how you can generate value, so you can make a living on your terms.",Image,https://www.linkedin.com/posts/shawhintalebi_last-year-i-passed-on-a-150k-data-science-activity-7255216987381903360-NKvI?utm_source=share&utm_medium=member_desktop
+3 habits I had to break to become a senior data scientist,"Here are 3 habits I had to BREAK before becoming a Senior Data Scientist 👇 
+
+1) Not digging deeper ❌ 
+
+Something that took me too long to learn was the importance of asking “why?” and digging more deeply into a request to find the underlying problem. 
+
+2) Focusing on technologies instead of problems ❌ 
+
+As a technical person, I found it easy to get so caught up in fancy new technologies that the problem we were trying to solve took a back seat. 
+
+3) Seeking sophistication ❌ 
+
+My favorite part of data science is combining techniques in creative ways to solve problems. 
+
+However, this can lead to overly sophisticated solutions that can often be replaced by simpler ones while still capturing the value. 
+
+👉 What’s a key lesson you’ve learned on your journey?",None,https://www.linkedin.com/posts/shawhintalebi_here-are-3-habits-i-had-to-break-before-becoming-activity-7182012910519431168-hgyr?utm_source=share&utm_medium=member_desktop
+Importance of full-stack data scientists and sharing blog post,"Although it is becoming more common to split different aspects of machine learning (ML) development across multiple specialized roles (e.g., data engineers, data scientists, and ML engineers)..
+
+.. there are still many situations which call for contributors who are well-versed in all aspects of the ML workflow. 
+
+I call these contributors full-stack data scientists. 
+
+👉 In my latest blog post, I introduce Full Stack Data Science and describe the 4 hats it involves. 
+
+Check it out and let me know what you think 👇 
+
+A big thank you to Towards Data Science for publishing this article 😁",Blog link,https://www.linkedin.com/posts/shawhintalebi_the-4-hats-of-a-full-stack-data-scientist-activity-7188897727051698176-Q05S?utm_source=share&utm_medium=member_desktop
+Multimodal RAG and its value. Share blog post,"Two major topics in AI this year were multimodal models and RAG. 
+
+But… what if we brought these ideas together? Multimodal RAG systems are capable of processing text and non-text data. 
+
+This enables more powerful solutions beyond what is conveyed by text alone. 
+
+For example, it could analyze someone’s facial expressions and speech tonality to give a richer context to a meeting’s transcription. 
+
+In my latest blog post, I give a beginner-friendly guide to Multimodal RAG and share an example implementation using LLaMA 3.2 Vision and CLIP. 
+
+Check it out here 👇 
+
+https://lnkd.in/grY5bGDz",Article screenshot,https://www.linkedin.com/posts/shawhintalebi_two-major-topics-in-ai-this-year-were-multimodal-activity-7272261775708827649-9USx?utm_source=share&utm_medium=member_desktop
+How to build client relationships as a data scientist,"To be an effective data scientist focus on relationships, not technologies. 
+
+While data science requires a minimum amount of technical proficiency, this isn’t the usual bottleneck for a data team’s impact 💥 
+
+The more I’ve worked with clients on business use cases, the more I’ve realized how a shallow relationship and lack of trust can hinder a data project’s impact. 
+
+Here are 3 things I do to cultivate a new client relationship 👇 
+
+1) Be curious (about the problem and where the other side is coming from) 
+
+2) Be transparent (about the limits of my skills and knowledge) 
+
+3) Be myself (don’t try to put up a front—it’s unsustainable) 
+
+Anything I can add here? 🤔",Meme,https://www.linkedin.com/posts/shawhintalebi_to-be-an-effective-data-scientist-focus-on-activity-7173683403018493954-kOTK?utm_source=share&utm_medium=member_desktop
+Lesson from posting 1 Youtube video a week,"Last quarter, I did an experiment where I posted 1 YouTube video every week. 
+
+... it did not go as expected 😬 
+
+My Hypothesis—Since YouTube drives 80% of my inbound traffic (e.g., paid calls, speaking gigs, project opportunities), doubling my video output will double my business. 
+
+The Results—Almost every business metric went down e.g. number of paid calls, number of leads, subscribers per month, YT revenue per month 😅 
+
+So what happened? 
+
+My (current) guesses: 
+
+- No LLM videos (these are among my most popular) 
+- Less time per video diminished quality 
+- I spent too much time making content and not enough time talking to clients and other folks working in the space (i.e. I got out of touch) 
+
+That’s why this quarter, I’ll be scaling back my content quantity and focusing more on quality by… 
+
+- Lowering my monthly YT video goal to 3 per month 
+- Lowering my consultation rates (so I can stay connected with people’s needs) 
+- Doing more project work as an intellectual break from making videos",Image,https://www.linkedin.com/posts/shawhintalebi_last-quarter-i-did-an-experiment-where-i-activity-7213623619136933888-9wwE?utm_source=share&utm_medium=member_desktop
+Why machine learning is different than traditional software development and sharing YouTube video,"Although we can draw many parallels between traditional software (SW) developments and machine learning (ML), there are 3 critical differences. 
+
+1) Computers are programmed by data, not humans ❌ 
+
+2) ML systems are less predictable and less interpretable ◼️ 
+
+3) Development is nonlinear 📈 
+
+👉 In my latest YouTube video, I discuss these points in greater detail and do a hands-on walkthrough of a project I’ve been working on to implement semantic search over my YouTube videos. 
+
+Check it out and let me know what you think 👇",Video link,https://www.linkedin.com/posts/shawhintalebi_how-to-build-ml-solutions-w-python-code-activity-7196150277098352640-2QUe?utm_source=share&utm_medium=member_desktop
+Importance of data engineering skills for data scientists and sharing video,"While Machine Learning (ML) may make you think of fancy algorithms, the quality of any ML solution is determined by the quality of the data used to develop it. 
+
+This raises the need for “Full Stack” Data Scientists to learn data engineering 🧑‍💻 
+
+The key skill this involves is building data pipelines i.e. getting data from point A to point B. 
+
+👉 In my latest YouTube video, I review key elements of any data pipeline and share example Python code for building one to pull video transcripts from YT. 
+
+Check it out and let me know what you think 👇",Video link,https://www.linkedin.com/posts/shawhintalebi_how-to-build-data-pipelines-for-ml-projects-activity-7194325999428251648-JzPX?utm_source=share&utm_medium=member_desktop
+How I’ve continued learning after grad school and sharing upcoming TDE event with content creator panel,"Here’s my “secret” for continuing to learn after grad school: content creation 🤫 
+
+Writing an article, making a YouTube video, or even posting on LinkedIn is a great way to force yourself to deepen your understanding of a topic. 
+
+However, making that first post isn’t always so easy 😅 
+
+This Saturday (Dec 16) at 11AM CST, I’ll be sitting down with top data creators from Medium, YouTube, and LinkedIn for a panel discussion on the upsides and challenges of content creation. 
+
+A big thank you to Dmytro Iakubovskyi, Keith Galli, and Matthew Blasa for being part of this discussion ❤️ 
+
+Join us live and ask these panelists your content creation questions 👇 
+
+👉 Register here: https://lu.ma/2o16dhzz 
+
+#event #datascience #contentcreation",Event link,https://www.linkedin.com/posts/shawhintalebi_learn-by-creating-content-creator-panel-activity-7141060171052556288-0mbO?utm_source=share&utm_medium=member_desktop
+9 ways I made money in my first year of entrepreneurship and sharing custom AI workshops,"In my 1st year as a full-time entrepreneur, I’ve made money in many different ways. 
+
+Here’s a list (in descending order)👇 
+
+1. Medium Blog 
+2. AI Consulting 
+3. YouTube 
+4. Consulting Calls 
+5. AI Workshop 
+6. Referral 
+7. Buy Me a Coffee 
+8. Book Review 
+9. Brand Collab 
+
+While having many revenue sources sounds nice on paper, when you are a solopreneur, it can easily lead to spreading yourself too thin. 
+
+That’s why I’m doubling down on one of these revenue sources: AI Workshops I like this offer because it aligns with my content creation efforts and allows me to stay connected with businesses using AI in practice. 
+
+If you know anyone looking for custom AI workshops, referrals are greatly appreciated (Happy to give a 10% referral bonus 😁) 
+
+👉 Learn more: https://lnkd.in/gHdZJY8P",Image,https://www.linkedin.com/posts/shawhintalebi_in-my-1st-year-as-a-full-time-entrepreneur-activity-7226950932775809024-ld_3?utm_source=share&utm_medium=member_desktop
+Sharing traction of new Maven course and 50% discount on founding cohort,"In just 5 days, the waitlist for my AI Builders Bootcamp hit 150 sign-ups 🤯 
+
+I’ll be honest… it’s been (a long) 15 months since I left my data science job to pursue entrepreneurship full-time. 
+
+I’ve explored dozens of product and service offers, none gaining much sustainable traction. 
+
+However, with this boot camp, I may have found something that (finally) aligns with the work I enjoy doing and something that provides value. 
+
+For that, I am immensely grateful and energized ⚡ 
+
+Can’t wait to launch this course and empower people to build cool stuff with AI. 
+
+Learn more: https://lnkd.in/gPHZTdWs 
+
+P.S. I’ll be offering 50% off the Founding cohort for this course. Join the waitlist using the link above to get notified when it’s live :)",Image,https://www.linkedin.com/posts/shawhintalebi_in-just-5-days-the-waitlist-for-my-ai-builders-activity-7251312193701363712-bjTq?utm_source=share&utm_medium=member_desktop
+Data science seems to be dying and ML/AI engineering is on the rise. Poll audience.,"While Data Scientist may have been the “sexiest job in America” a few years ago, these days, it feels like that is changing. 
+
+With new roles like data engineer, ML engineer, and (now) AI engineer, these specializations seem to be in greater demand than traditional data scientists. 
+
+What's your sense? 
+
+Is Data Science Dying?",Poll,https://www.linkedin.com/posts/shawhintalebi_while-data-scientist-may-have-been-the-sexiest-activity-7203392215987937280-Whm_?utm_source=share&utm_medium=member_desktop
+Lessons from talking to 15 data science freelancers,"After talking to 15 data science freelancers, this was one of my biggest takeaways 👇 
+
+Learn the full tech stack. 
+
+When doing data science work as a freelancer, one is often working alone 👨🏻‍💻 
+
+This means that generating real-world value from a data science project is going to require you to go outside the typical data science skillset. 
+
+Toward that end, my goal this quarter is to sit down with 4 data engineers and 4 ML engineers to get guidance on how I can learn the full DS tech stack. 
+
+👉 If you (or anyone you know) are a DE/MLE and are willing to chat, shoot me a DM or drop a comment :) 
+
+#datascience #dataengineering #MLengineering",None,https://www.linkedin.com/posts/shawhintalebi_datascience-dataengineering-mlengineering-activity-7151220885419384832-1Cxq?utm_source=share&utm_medium=member_desktop
+Takeaways from Q1 retreat,"This past week my fiancé and I did a “work retreat” to set our goals for Q1. 
+
+Changing our environment helps us break out of the routines of last quarter, which I’ve found super helpful for strategic thinking 🧠 
+
+My key takeaway from this is I need to “do more doing”. 
+
+This means prioritizing practice over theory, building over thinking, and focus over meandering. 
+
+Toward that end, a major focus for me this quarter is to expand my technical skills and become a “full-stack data scientist” 👨🏻‍💻 
+
+Here are 3 goals in that direction 👇 
+
+1) Chat with 4 data engineers and 4 ML engineers 
+
+2) Build (practical) projects using Docker, AWS, and Git 
+
+3) Do 1 end-to-end DS project 
+
+— 
+
+👉 What are you focused on this new year? 
+
+#goalsetting #datascience #doing",Image,https://www.linkedin.com/posts/shawhintalebi_goalsetting-datascience-doing-activity-7149051963568009216-IhGJ?utm_source=share&utm_medium=member_desktop
+"Why entrepreneurs shouldn’t quit, showcasing data and Lindy principle","You often hear entrepreneurs say, “keep going” or “just don’t quit” 
+
+Here’s (statistically) why this is good advice 👇 
+
+The 1st plot below shows business survival rates est in 1994 up until 2023 
+
+This demonstrates the low odds of entrepreneurial success, with 50% closing after 5 years. 
+
+However, something interesting happens if we look at this same curve for businesses that have been around for a few years (2nd plot). 
+
+Here, we see the curve incrementally move up the longer a business stays alive. 
+
+In other words, their probability of survival increases the longer they survive 📈 
+
+For example, although only 50% of new businesses make it to year 5, these odds jump to 57% after just 1 year in business! 
+
+So this is a reminder to all the entrepreneurs out there… keep going. 
+
+Each day you survive, your odds of success go up a little bit 💪",Charts,https://www.linkedin.com/posts/shawhintalebi_you-often-hear-entrepreneurs-say-keep-going-activity-7222239000734916608-mGJv?utm_source=share&utm_medium=member_desktop
+Importance of full-stack data science skills and sharing video,"Full-stack data scientists can manage and implement ML projects end-to-end. 
+
+While this may seem unnecessary with the rise of specialized data roles (e.g., data engineers and ML engineers), there are still many situations that require contributors with this end-to-end skill set. 
+
+Here are 4 examples 👇
+
+• A data freelancer selling their services 
+• An SMB (small to medium-sized business) with limited AI/ML resources 
+• A lone AI/ML contributor is embedded in a business team 
+• A founder who wants to build an ML product 
+
+In a recent YouTube video, I kicked off a new series on full stack data science where I introduced the idea and the 4 hats it involves. 
+
+Check it out and let me know what you think 😁",Video link,https://www.linkedin.com/posts/shawhintalebi_4-skills-you-need-to-be-a-full-stack-data-activity-7189619548382191619-O42V?utm_source=share&utm_medium=member_desktop
+Getting a data science job was hard until I learned these 5 things,"Getting a Data Science Job was hard until I learned these 5 things 👇 
+
+1. Adapt your resume to the specific role 
+
+You have about 7 seconds of a hiring manager's attention when reviewing your resume; use it to call out all the skills they listed in the job description. 
+
+2. Do real-world projects 
+
+While toy projects from class or Kaggle are a great way to learn, hiring managers care about real-world impact. 
+
+3. Make a portfolio 
+
+Despite the free no-code tools for making a portfolio website, most people don't make one. That makes this a super easy way to stand out. 
+
+4. Stay out of the weeds (unless they ask) 
+
+This was one of my greatest struggles. When someone asked about a project, I would dive right into the technical details. 
+
+This is the best way to lose someone's attention (even data scientists). 
+
+5. Be yourself (not who you think they want to hire) 
+
+When I interviewed for my full-time data science role, I dove into a rant about my love for optimization. 
+
+Most people get confused and awkward when I discuss such topics, but not the interviewers. They got pumped up... that's when I knew I found my people 😁 
+
+What was an unlock for you when applying to data science roles?",Image,https://www.linkedin.com/posts/shawhintalebi_getting-a-data-science-job-was-hard-until-activity-7253048639919382528-Ho-i?utm_source=share&utm_medium=member_desktop
+AI won’t make you rich… solving problems will,"AI won’t make you rich… solving problems will. 
+
+Over the past year, I’ve seen a trend of CEOs and founders scrambling to find AI use cases for their businesses. 
+
+While this AI excitement is great for data scientists like me, it is not sufficient for value generation. 
+
+In other words, “using AI” won’t necessarily move the needle on the things important to businesses. 
+
+For that, one must solve problems… which may not require a chatbot, RAG system, or any state-of-the-art AI model. 
+
+More often than not, using readily available AI assistants (e.g., ChatGPT) and having good data infrastructure will get businesses 80% there.",Image,https://www.linkedin.com/posts/shawhintalebi_ai-wont-make-you-rich-solving-problems-activity-7251594269092651008-oYRb?utm_source=share&utm_medium=member_desktop
+Challenges building AI agents and value of text embedding systems. Share video.,"Here’s the problem with building an AI agent… 
+
+Although there’s a lot of excitement (and innovation) about AI agents these days, this technology is still in its early stages. 
+
+Therefore, building a robust agent (i.e., not a prototype) is still an expensive and non-trivial engineering problem ❌ 
+
+However, there is another technology that enables the development of simpler and cheaper AI systems while still capturing much of the value. 
+
+I’m talking about Text Embeddings 😮 In my latest YouTube video, I give a beginner-friendly introduction to text embeddings and share 2 relatively simple (yet high-value) use cases. 
+
+Check it out and let me know what you think 👇",Video link,https://www.linkedin.com/posts/shawhintalebi_text-embeddings-classification-and-semantic-activity-7181648972111835137-XHFB?utm_source=share&utm_medium=member_desktop
+Recap of past 12 months on my 29th bday,"I turned 29 today. 
+
+28 was wild… here are some things that happened. 
+
+>> 1.2M people watched my YouTube videos 
+>> My YT channel went from 2k —> 31k subs 
+>> 600 people joined The Data Entrepreneurs Discord 
+>> I started a podcast with Ifeoma Ahuna 
+
+But most importantly… 
+>> I survived my 1st year of entrepreneurship! 
+
+While this past year has been harder than I expected (emotionally), going down this path is the best decision I’ve made in my 29 years of life. 
+
+Entrepreneurship allows me to live a life better aligned with my values (relationships, growth, and freedom), which I feel is key to a fulfilling life. 
+
+Excited to see where Year 2 takes me (other than turning 30 😅)",Image,https://www.linkedin.com/posts/shawhintalebi_i-turned-29-today-28-was-wild-here-are-activity-7226591975460757504-BqBb?utm_source=share&utm_medium=member_desktop
+Don’t build a chatbot and 5 LLM use case ideas.,"Don’t use AI to build a chatbot 🤖 
+
+❌ Although ChatGPT (and friends) has captured the world’s imagination regarding AI, the business value of building an ""AI chatbot"" may not justify the cost. 
+
+Here are 5 better LLM use cases for business 👇 
+
+1) Structure unstructured data—format data from inconvenient sources into a structured database 
+
+2) Standardize data—resolve conflicts between databases and make it analytics-ready 
+
+3) Data augmentation—enrich existing datasets with meta-tags and other information 
+
+4) Data generation—create synthetic datasets for developing custom AI solutions 
+
+5) Semantic search—improve existing search functions using text embeddings 🤔 
+
+What am I missing here? 
+
+#LLM #AI #datascience",None,https://www.linkedin.com/posts/shawhintalebi_llm-ai-datascience-activity-7171517665730056192-nYng?utm_source=share&utm_medium=member_desktop
+Importance of problem discovery for data scientists and sharing blog post,"Data science is more than just training fancy machine learning models. 
+
+When you boil it down, the ultimate goal is to solve problems. 
+
+Since, as data scientists, we typically don’t solve our own problems, the ability to communicate and learn from stakeholders is a critical skill set. 
+
+👉 In my latest article, I lay out 5 “problem discovery” questions that every data scientist should hardcode into their brain. 
+
+These questions are the product of 10 interviews with seasoned data freelancers on their approach to these conversations and 25 discovery calls of my own. 
+
+Here’s the list 👇 
+
+What problem are you trying to solve? 
+Why...? 
+What’s your dream outcome? 
+What have you tried so far? 
+Why me? 
+
+Anything to add? 🤔 
+
+#datascience #consulting #freelance",Blog link,https://www.linkedin.com/posts/shawhintalebi_5-questions-every-data-scientist-should-hardcode-activity-7145811689567887360-aGqL?utm_source=share&utm_medium=member_desktop
+10 AI buzzwords explained,"AI seems to be riddled with buzzwords these days. 
+
+Here are 10 common AI terms every practitioner should know... 
+
+1) RAG = automatically providing relevant context (i.e. docs) to an AI system so it can generate better responses
+2) Vector DB = numerical representations of documents which can be used for RAG and search 
+3) Fine-tuning = adapting a model to a particular use case through additional training 
+4) AI Agent = an AI system that can plan and execute tasks 
+5) Evals = tests that score an AI system’s efficacy 
+6) Hallucination = a ""made-up"" response from an AI that sounds reasonable 
+7) Multimodal = data of different formats (e.g. text, images, audio, videos, tables, time series) 
+8) Small Language Models = LLMs with ~1B parameters 
+9) Quantization = reducing the precision of model parameters to reduce its size 
+10) Distillation = using a large model to train a smaller one 
+
+—
+
+ What's missing from this list?",Notes screenshot,https://www.linkedin.com/posts/shawhintalebi_ai-seems-to-be-riddled-with-buzzwords-these-activity-7269387856794542081-qoBg?utm_source=share&utm_medium=member_desktop
+What does a data scientist (actually) do? Share Tik Tok,"12 years ago, “Data Scientist” was the sexiest job of the century. 
+
+Today, it’s still an in-demand role, offering cushy salaries… 
+
+But what do they actually do? 
+
+In my view, the main job of a data scientist is to answer questions using data. 
+
+This consists of 4 key activities 👇 
+
+1) Have a question to answer—this typically comes from clients and business stakeholders. 
+
+2) Acquiring the relevant data—this is the boring yet most important part. 
+
+3) Analyzing data—once the data are in a usable form, data scientists use tools like Python or R to compute statistics and create data visualizations. 
+
+4) Build models—we can use data to construct predictive models to solve problems and support decision-making.",Video,https://www.linkedin.com/posts/shawhintalebi_12-years-ago-data-scientist-was-the-sexiest-activity-7221146459902029825-rhb7?utm_source=share&utm_medium=member_desktop
+How data scientists and ML engineers can monetize their technical skills and share video,"Data scientists and ML engineers might think that a full-time job is the only way to monetize their specialized skill sets. 
+
+Over the past few years, I’ve realized the wide range of opportunities for data and ML people. 
+
+In a recent YouTube video, I broke down 9 different ways I made money using my data science skills this past year. 
+
+I hope sharing my experience helps those who are seeking a non-traditional career path or just looking to diversify their income stream. 
+
+Here’s the link: https://lnkd.in/gqZQhDWd",Image,https://www.linkedin.com/posts/shawhintalebi_data-scientists-and-ml-engineers-might-think-activity-7247966517642870784-kbWq?utm_source=share&utm_medium=member_desktop
+Hitting 1M views on YouTube,"This has been a month of milestones for my YouTube channel. 
+
+Last week, I crossed 1,000,000 views 🤯… a number too big to fully comprehend.
+
+I started this journey by making content that would have been helpful to a past version of myself. 
+
+And as a Physics PhD student, I didn’t think that would be relevant to a lot of people 😅 
+
+But, to my surprise, it seems there are many people (not just PhD students) who have an appetite for learning about data science and AI. 
+
+Which makes me pretty lucky 😁 
+
+Thank you to everyone who watched 🙏.. 
+
+.. Next stop 10M??",Image,https://www.linkedin.com/posts/shawhintalebi_this-has-been-a-month-of-milestones-for-my-activity-7201230364743245824-_myX?utm_source=share&utm_medium=member_desktop
+5 AI projects you can build this weekend,"The best way to learn AI is by building projects… but what do I build? 
+
+Here are 5 AI project ideas you can implement this weekend (with Python). 
+
+1. Resume Optimization (Beginner) 👨🏻‍💼 
+
+Use OpenAI’s Python API to adapt your resume to specific job descriptions. 
+
+Lib: openai 
+
+2. YouTube Lecture Summarizer (Beginner) 🎥 
+
+Take those (long) ML lectures collecting dust in your ""watch later"", and summarize them to see if they're worth keeping around. 
+
+Libs: openai, youtube-transcript-api 
+
+3. Automatically Organizing PDFs (Intermediate) 📄 
+
+If you’re like me and have an unreasonable number of unread research papers (118) on your desktop, you can build a tool to generate text embeddings for each file and use a simple clustering algorithm to organize them into folders. 
+
+Libs: sentence_transformers, sklearn 
+
+4. Multimodal Semantic Search (Intermediate) 🔍 
+
+Searching text is easy… but what about videos and images? Now, you can use multimodal embedding models to embed text and images in the same space for search. 
+
+Libs: transformers Model: nomic-ai/nomic-embed-text-v1.5 
+
+5. Desktop QA (Advanced) 💬 
+
+You can connect a multimodal knowledge base to a model like Llama-3.2-11B-Vision to do question-answering. 
+
+Libs: transformers, together (Llama-3.2-vision is free until 2025) 
+
+Drop a comment if you want me to flesh any of these out 👇",Notes screenshot,https://www.linkedin.com/posts/shawhintalebi_the-best-way-to-learn-ai-is-by-building-projects-activity-7249059269679972352-IraN?utm_source=share&utm_medium=member_desktop
+How I’d learn AI if I started over today.,"AI has changed a lot since I started 5 years ago. 
+
+Here’s how I’d learn it if I had to start over… 
+
+1. Learn Python 
+
+Although some say you don’t need to learn to code anymore, I still think it’s essential for anyone who wants to build custom software solutions. 
+
+2. Build Projects 
+
+The AI space is too massive and evolving too quickly to effectively learn from a textbook. The best approach (IMO) is to start by building projects and learning concepts as needed. 
+
+3. Start with Kaggle/HF Datasets 
+
+While you’ll never find neatly curated data in the real world, I think using resources like Kaggle or Hugging Face is a great starting place for beginners. 
+
+Some libraries worth learning for this initial project are: Pandas (or Polars), matplotlib, and sklearn 
+
+4. Find a real-world project 
+
+After one or two toy projects, it’s time to start working on something more practical. 
+
+The best projects solve a real-world problem. I’d seek one out by reaching out to businesses or other orgs in my network to see if I could offer them free work. 
+
+5. Use ChatGPT and Cursor 
+
+AI coding assistants have become the norm for programming. Use them to help you learn faster and get you unblocked as needed.",Notes screenshot,https://www.linkedin.com/posts/shawhintalebi_ai-has-changed-a-lot-since-i-started-5-years-activity-7257390312480727040-HQuz?utm_source=share&utm_medium=member_desktop
