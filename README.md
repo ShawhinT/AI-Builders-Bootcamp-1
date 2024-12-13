@@ -26,7 +26,7 @@ Examples:
 - [Text classifier](https://github.com/ShawhinT/AI-Builders-Bootcamp-1/blob/main/session-3/example_2-text-classifier.ipynb)
 - [Local document QA with LLaMA 3.2 Vision](https://github.com/ShawhinT/AI-Builders-Bootcamp-1/blob/main/session-3/example_3-local_visual_QA.ipynb)
 
-### Session 4: Software 3.0, RAG, Text Embeddings
+## Session 4: Software 3.0, RAG, Text Embeddings
 Prompting LLMs ChatGPT-style only scratches the surface of what we can use modern language models for. We can also leverage RAG to improve model performance and text embeddings to make text computable.
 
 Examples:
@@ -34,12 +34,12 @@ Examples:
 - [Semantic search over blog posts](https://github.com/ShawhinT/AI-Builders-Bootcamp-1/blob/main/session-4/example_2-blog_semantic_search.ipynb)
 - [RAG chatbot over blog series](https://github.com/ShawhinT/AI-Builders-Bootcamp-1/blob/main/session-4/example_3-blog_QA_RAG.ipynb)
 
-### Session 5: Software 3.0, Fine-tuning
+## Session 5: Software 3.0, Fine-tuning
 Although LLMs can solve a wide range of problems out-of-the-box, there are situations where more model customization is required. This can be achieved through model fine-tuning, which involves adapting a model to a particular use case through additional training.
 
 Examples
 - [Fine-tuning BERT for Text Classification](https://github.com/ShawhinT/AI-Builders-Bootcamp-1/blob/main/session-5/example_1-finetune_bert_classifier.ipynb)
 - [Fine-tuning a LinkedIn Post Writer](https://github.com/ShawhinT/AI-Builders-Bootcamp-1/blob/main/session-5/example_2-linkedin_post_writer.ipynb)
 
-### Session 6: AI Project Management
+## Session 6: AI Project Management
 Technical skills are necessary but not sufficient for generating value with AI. In the final session, we review a project management framework for getting an ROI on AI projects and best practices.
