@@ -38,7 +38,8 @@ Examples:
 Although LLMs can solve a wide range of problems out-of-the-box, there are situations where more model customization is required. This can be achieved through model fine-tuning, which involves adapting a model to a particular use case through additional training.
 
 Examples
-- coming soon
+- [Fine-tuning BERT for Text Classification](https://github.com/ShawhinT/AI-Builders-Bootcamp-1/blob/main/session-5/example_1-finetune_bert_classifier.ipynb)
+- [Fine-tuning a LinkedIn Post Writer](https://github.com/ShawhinT/AI-Builders-Bootcamp-1/blob/main/session-5/example_2-linkedin_post_writer.ipynb)
 
 ### Session 6: AI Project Management
 Technical skills are necessary but not sufficient for generating value with AI. In the final session, we review a project management framework for getting an ROI on AI projects and best practices.
